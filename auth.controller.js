@@ -1,5 +1,5 @@
 import User from './models/User.js';
-import { signToken } from '../middlewares/auth.js';
+import { signToken } from './auth.js';
 
 export const signup = async (req, res) => {
   try {
