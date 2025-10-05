@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { requireAuth } from '../middlewares/auth.js';
+import auth from './auth.js';
 import { me, getUsers, getUser, updateUser, deleteUser } from '../controllers/user.controller.js';
 
 const router = Router();
