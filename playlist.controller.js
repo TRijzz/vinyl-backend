@@ -1,4 +1,4 @@
-import Playlist from '../models/Playlist.js';
+import Playlist from './models/Playlist.js';
 
 export const createPlaylist = async (req, res) => {
   const body = { ...req.body, user: req.user.id };

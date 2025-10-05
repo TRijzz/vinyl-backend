@@ -1,4 +1,4 @@
-import Artist from '../models/Artist.js';
+import Artist from './models/Artist.js';
 
 export const createArtist = async (req, res) => {
   const artist = await Artist.create(req.body);
