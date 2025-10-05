@@ -3,14 +3,14 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
-import { connectDB } from './src/config/db.js';
-import authRoutes from './routes/auth.routes.js';
-import userRoutes from './routes/user.routes.js';
-import artistRoutes from './routes/artist.routes.js';
-import songRoutes from './routes/song.routes.js';
-import playlistRoutes from './routes/playlist.routes.js';
+import { connectDB } from './db.js';
+import authRoutes from './auth.routes.js';
+import userRoutes from './user.routes.js';
+import artistRoutes from './artist.routes.js';
+import songRoutes from './song.routes.js';
+import playlistRoutes from './playlist.routes.js';
 // Import Spotify routes using ES modules syntax
-import spotifyRoutes from './routes/spotify.routes.js';
+import spotifyRoutes from './spotify.routes.js';
 
 
 
