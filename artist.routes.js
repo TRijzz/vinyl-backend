@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import { requireAuth } from './auth.js';
-import { createArtist, getArtists, getArtist, updateArtist, deleteArtist } from '../controllers/artist.controller.js';
+import { createArtist, getArtists, getArtist, updateArtist, deleteArtist } from './artist.controller.js';
 
 const router = Router();
 
