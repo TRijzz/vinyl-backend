@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { requireAuth } from '../middlewares/auth.js';
+import { requireAuth } from './auth.js';
 import { createPlaylist, getMyPlaylists, getPlaylist, updatePlaylist, deletePlaylist, addSongToPlaylist, removeSongFromPlaylist } from '../controllers/playlist.controller.js';
 
 const router = Router();

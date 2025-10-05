@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { requireAuth } from '../middlewares/auth.js';
+import { requireAuth } from './auth.js';
 import { createArtist, getArtists, getArtist, updateArtist, deleteArtist } from '../controllers/artist.controller.js';
 
 const router = Router();
